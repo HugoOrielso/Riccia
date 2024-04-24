@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.section-uno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-test{
+    font-size: 5.5em;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #202945;
+}
+
+.title-test span{
+    color: #E92176;
+    font-family: "Great Vibes", cursive;
+}
+
+.msj-presentacion{
+    text-align: start;
+    padding: 0 2em;
+    font-size: 1.5em;
+}
+
+.container-preguntaGlobal{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    margin: 1em;
+    
+}
+
+.label-options-global{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.5em;
+}
+
+
+.container-preguntaGlobal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #202945;
+    border-radius: 1em;
+    color: white;
+    gap: 1em;
+    width: 75%;
+    padding: 1em;
+}
+
+.container-preguntaGlobal h1{
+    font-size: 2.5em;
+    color: #E92176;
+}
+
+
+.confirmar-btn{
+    padding: 1em 2em;
+    background-color: #E92176;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2em ;
+    transition: all .5s ease
+}
+
+.label-options-global{
+    font-size: 2em;
+}
+
+.confirmar-btn:hover{
+    transform: scale(.95);
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.confirmar-btn:active{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width:650px) {
+    .title-test{
+        font-size: 50px;
+    }
+
+    .msj-presentacion{
+        font-size: 1em;
+    }
+
+    .container-preguntaGlobal h1{
+        font-size: 1.5em;
+        color: #E92176;
+    }
+    
+    .label-options-global{
+        font-size: 1em;
+    }
+
+    .container-preguntaGlobal{
+        width: 95%;
+    }
+    
+}
+

@@ -1,0 +1,22 @@
+.container-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    max-height: 500px;
+    min-height: 500px;
+}
+
+.container-content h1{
+    font-size: 5em;
+}
+
+.container-content label{
+    display: flex;
+}
+
+
+.swiper{
+    max-width: 100%;
+}
+
+

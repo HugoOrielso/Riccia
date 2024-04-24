@@ -1,0 +1,12 @@
+#root {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  --color-main: #E92176;
+}
+
+
+body{
+  background-color: #F6F9FC;
+}

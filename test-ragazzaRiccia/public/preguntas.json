@@ -1,0 +1,30 @@
+{
+  "productos":{},
+  "Recomendaciones":[
+    {   "indice": 1,
+        "question": "¿Tu cabello se define fácil, incluso sólo con agua?",
+        "answer": ["Sí", "No"]
+    },
+    {
+        "indice": 2,
+        "question": "¿Cuándo bañas tu cabello batallas mucho para secarlo?",
+        "answer":["Sí", "No"]
+    },
+    { 
+        "indice": 3,
+        "question": "¿Necesitas aplicar mucho producto o con poco ves buenos resultados?",
+        "answer":["Mucho", "Poco"]
+    },
+    {
+        "indice": 4,
+        "question":"¿Si te separas el cabello puedes ver la raíz, en una escala de 1 - 3 cuánto es visible?, 1: poco, 2: medio, 3: mucho",
+        "answer":["1: poco", "2: medio", "3: mucho"]
+    },
+    {
+        "indice": 5,
+        "question": "¿Con qué frecuencia te lavas el cabello?, ¿por qué?",
+        "answer":["Todos los días, se ensucia siempre", "2/3 veces, se ensucia a menudo", "1 vez a la semana, se ensucia muy poco"]
+    }
+  ]
+
+}

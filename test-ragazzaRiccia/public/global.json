@@ -1,0 +1,6 @@
+{
+    "preguntaGlobal":{
+        "question": "¿Quieres un test para tratamiento o recomendación de productos?",
+        "answers": ["Tratamiento", "Recomendación"]
+    }
+}

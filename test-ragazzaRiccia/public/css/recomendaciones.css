@@ -1,0 +1,143 @@
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #202945;
+    margin: 2em 1em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,.3);
+}
+
+.question h2{
+    color: #E92176;
+    font-size: 2em;
+}
+
+.respuestas{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.respuestas label{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.btn-terminar{
+    padding: 1em 2em;
+    background-color: #E92176;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1em ;
+    max-width: 10em;
+    margin-bottom: 2em;
+    transition: all .5s ease
+}
+
+.btn-terminar:hover{
+    transform: scale(.95);
+}
+
+.btn-terminar:active{
+    transform: scale(1.05);
+}
+
+.formulario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.724);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1em;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.inputs form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#input_rutina{
+    display: none;
+    overflow: hidden; 
+}
+
+.container-inputs{
+    display: flex;
+    width: 100%;
+    gap: 1em;
+}
+
+.input-data {
+    width: 90%;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-family: inherit;
+    box-shadow: 0 0 0 1px #E92176;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff5f5;
+    transition: all .3s;
+  }
+  
+  .input-data::placeholder {
+    color: #ce9797;
+    font-size: 14px;
+  }
+  
+  .input-data:focus {
+    outline: none;
+    box-shadow: 0 0 10px 1px #E92176;
+    border: none;
+    transition: all .3s;
+  }
+  
+@media screen and (max-width:650px){
+    .respuestas label.star{
+        align-items: start;
+        justify-content: center;
+        display: flex;
+    }
+
+    .container-inputs{
+        flex-direction: column;
+    }
+
+    .input-data{
+        width: 100%;
+    }
+}
